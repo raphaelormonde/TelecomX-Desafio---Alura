@@ -226,3 +226,11 @@ axes[1].set_title('Gastos Mensais vs Evasão')
 
 plt.tight_layout()
 plt.show()
+
+
+# ==============================================================================
+# SALVANDO CSV
+# ==============================================================================
+
+
+df_final.to_csv('TelecomX.csv', index=False)
